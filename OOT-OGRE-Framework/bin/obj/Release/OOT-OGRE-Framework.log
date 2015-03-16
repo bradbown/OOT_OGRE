@@ -1,0 +1,22 @@
+﻿Build started 12/03/2015 13:29:55.
+     1>Project "F:\Year 2\Object Oriented Techniques\Term 2\OOT-OGRE-Framework\OOT-OGRE-Framework\OOT-OGRE-Framework.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"C:\SDKs\OgreSDK_vc11_v1-9-0\include\OGRE" /I"C:\SDKs\OgreSDK_vc11_v1-9-0\include\OIS" /I"C:\SDKs\OgreSDK_vc11_v1-9-0\include\OGRE\Overlay" /I"C:\SDKs\OgreSDK_vc11_v1-9-0\boost\\" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\bin\obj\Release\\" /Fd".\bin\obj\Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt src\GameWorld.cpp src\OgreApplication.cpp
+         GameWorld.cpp
+     1>src\GameWorld.cpp(235): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+         OgreApplication.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\bin\Release\OOT-OGRE-Framework.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\SDKs\OgreSDK_vc11_v1-9-0\lib\Release" /LIBPATH:"C:\SDKs\OgreSDK_vc11_v1-9-0\boost\lib" OgreMain.lib OIS.lib OgreOverlay.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:".\bin\Release\OOT-OGRE-Framework.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\bin\Release\OOT-OGRE-Framework.lib" /MACHINE:X86 /SAFESEH .\bin\obj\Release\Camera.obj
+         .\bin\obj\Release\main.obj
+         .\bin\obj\Release\OgreApplication.obj
+         .\bin\obj\Release\OgreWrapper.obj
+         .\bin\obj\Release\GameWorld.obj
+         .\bin\obj\Release\stdafx.obj
+         Generating code
+         Finished generating code
+         OOT-OGRE-Framework.vcxproj -> F:\Year 2\Object Oriented Techniques\Term 2\OOT-OGRE-Framework\OOT-OGRE-Framework\.\bin\Release\OOT-OGRE-Framework.exe
+     1>Done Building Project "F:\Year 2\Object Oriented Techniques\Term 2\OOT-OGRE-Framework\OOT-OGRE-Framework\OOT-OGRE-Framework.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:33.93
